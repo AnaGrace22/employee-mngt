@@ -2,11 +2,11 @@
 
 @section('content')
     <!-- Content Header (Page header) -->
-    <div class="content-header">
+    <div style="background-color:#218c74;"  class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
-                <div class="col-sm-6">
-                    <h1 class="m-0">{{ __('Employee Form') }}</h1>
+                <div  class="col-sm-6">
+                    <h1  class="m-0">{{ __('Employee Form') }}</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -19,8 +19,12 @@
             <div class="row">
                 <div class="col-lg-12">
 
-                    <div style="background-color:#006266; color:white;" class="alert alert-info">
-                    Employee Table
+                    <div style="background-color:#006266; color:white; margin-top:20px" class="alert alert-info">
+                    <a href="{{ route('employee.index')}}">
+                    <button style="background-color:#ccae62; color:black;" class="btn btn-info btn-sm">
+                            <i  class="fa fa-pencil-square-o" aria-hidden="true"></i> Add Employee
+                                </button>
+</a>
                     </div>
 
                     <div class="card">
