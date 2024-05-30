@@ -41,7 +41,8 @@
                                         <th>Birthday</th>
                                         <th>Hired Date</th>
                                         <th>Department</th>
-                                          <th>Action</th>
+                                          <th>Edit</th>
+                                          <th>Delete</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -63,12 +64,21 @@
                                         <td scope="col">
 
                             <a href="{{ url('employee/'.$infos->id.'/edit')}}">
-                            <button style="background-color:#009432; color:white;" class="btn btn-info btn-sm">
+                            <button style="padding-bottom:20px; background-color:#009432; color:white;" class="btn btn-info btn-sm">
                             <i  class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit
                                 </button>
                             </a>
 
                                 </td>
+                                <td scope="col">
+
+                            <a href="{{ url('employee/'.$infos->id.'/edit')}}">
+                            <button style="padding-bottom:20px;background-color:red; color:white;" class="btn btn-info btn-sm">
+                        <i  class="fa fa-pencil-square-o" aria-hidden="true"></i> DELETE
+                                </button>
+</a>
+
+    </td>
 
                                     </tr>
                                 @endforeach
