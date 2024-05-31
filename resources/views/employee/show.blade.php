@@ -6,7 +6,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div  class="col-sm-6">
-                    <h1  class="m-0">{{ __('Employee Form') }}</h1>
+                    <h2 class="m-0">{{ __('Employee Form') }}</h2>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -22,15 +22,15 @@
                     <div style="background-color:#006266; color:white; margin-top:20px" class="alert alert-info">
                     <a href="{{ route('employee.index')}}">
                     <button style="background-color:#ccae62; color:black;" class="btn btn-info btn-sm">
-                            <i  class="fa fa-pencil-square-o" aria-hidden="true"></i> Add Employee
-                                </button>
+                       <b>     <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Add Employee
+                                </button></b>
 </a>
                     </div>
 
                     <div class="card">
                         <div class="card-body p-0">
                                
-                            <table class="table ">
+                            <table  style="background-color:#e66767;" class="table ">
                                 <thead >
                                     <tr>
                                         <th>ID</th>
