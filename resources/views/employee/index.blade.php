@@ -21,7 +21,7 @@
 
 
     <div class="card card-primary"  style="margin-left:200px; margin-right:200px;">
-              <div  style="Background-color:#006266;" class="card-header " >
+              <div  style="Background-color:#2d3436;" class="card-header " >
                 <h3  class="card-title">Add new employee</h3>
               </div>
               <!-- /.card-header -->
@@ -150,7 +150,7 @@
                   </div>
 
 
-                  <button style="background-color:#218c74; color:white; width:100%; margin:0;"href="employee.show" type="submit" class="btn btn-primary">Submit</button>
+                  <button style="background-color:#636e72; color:white; width:100%; margin:0;"href="employee.show" type="submit" class="btn btn-primary">Submit</button>
              
               </form>
             </div>
